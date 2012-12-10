@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!-- 
+/**
+ * @category   Technooze
+ * @package    Technooze_Tcatalog
+ * @author     ModuleCreator
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+ -->
+<config>
+    <modules>
+        <Technooze_Tcatalog>
+            <version>0.1.0</version>
+        </Technooze_Tcatalog>
+    </modules>
+    <frontend>
+        <layout>
+            <updates>
+                <tcatalog>
+                    <file>tcatalog.xml</file>
+                </tcatalog>
+            </updates>
+        </layout>
+    </frontend>
+    <global>
+        <blocks>
+            <tcatalog>
+                <class>Technooze_Tcatalog_Block</class>
+            </tcatalog>
+            <catalog>
+                <rewrite>
+                    <product_view>Technooze_Tcatalog_Block_Product_View</product_view>
+                    <!--
+                    // doesn't work in enterprise, need to test in community.
+                    <product_list_related>Technooze_Tcatalog_Block_Product_List_Related</product_list_related>
+                    -->
+                </rewrite>
+            </catalog>
+        </blocks>
+        <helpers>
+            <tcatalog>
+                <class>Technooze_Tcatalog_Block_Helper</class>
+            </tcatalog>
+            <catalog>
+                <rewrite>
+                    <product_compare>Technooze_Tcatalog_Block_Helper_Product_Compare</product_compare>
+                </rewrite>
+            </catalog>
+        </helpers>
+    </global>
+</config>
