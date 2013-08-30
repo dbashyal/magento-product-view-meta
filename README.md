@@ -31,4 +31,4 @@ if it works, then this is how you use it.
 </reference>
 ```
 
-###visit: http://learntipsandtricks.com/ for more magento tips, tricks and codes.
+###visit: http://dltr.org/ for more magento tips, tricks and codes.
