@@ -1,6 +1,8 @@
 Magento E-Commerce - Product View Meta Description
 ===================================================
 
+[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=dbashyal&url=https://github.com/dbashyal&title=Github Repos&language=&tags=github&category=software)
+
 You can use this free open source magento module ( magento extension ) to fix meta description issue in Magento's product view page's meta description content.
 
 To install, just download the code and drop at the base root of your website installation (usually public_html/ or http_docs/)
